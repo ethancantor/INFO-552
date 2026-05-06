@@ -1,0 +1,86 @@
+.nav-bar {
+	background-color: oklch(36.4% 0.029 323.89);
+  	width: calc(100% - 20px);
+	height: 50px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	gap: 20px;
+	padding: 0 10px;
+}
+
+.footer {
+	background-color: oklch(36.4% 0.029 323.89);
+  	width: calc(100% - 20px);
+	height: 50px;
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 0 10px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+.tiny-footer {
+	font-size: 70%;
+}
+
+.title-name {
+	left: 0;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	gap: 20px;
+	padding: 0 10px;
+}
+
+
+.title-name {
+	color: oklch(82.7% 0.119 306.383);
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.nav-bar a {
+	text-decoration: none;
+	padding: 0 15px;
+	color: inherit;
+}
+
+.active {
+	color: oklch(92.2% 0.005 325.62);
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.content {
+	padding: 0 20px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "IBM Plex Mono", monospace;
+	background-color: oklch(43.5% 0.029 321.78);
+	color: oklch(98.7% 0.002 197.1);
+	display: flex;
+	flex-direction: column;
+}
+
+.profile-container {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	padding: 20px;
+}
+
+.profile-pic {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	object-position: center -25px;
+	margin-right: 20px;
+	border-radius: 25%;
+}
