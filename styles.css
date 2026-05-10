@@ -92,3 +92,47 @@ body {
 .fp-link {
 	color: #5E8AB4;
 }
+
+.resume-block {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+.resume-details {
+	text-align: right;
+}
+
+.line-break {
+	color: oklch(98.7% 0.002 197.1);
+}
+
+.associations-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.associations-container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 25%;
+	aspect-ratio: 16 / 9 ;
+}
+
+.associations-logo {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.associations-text {
+	position: absolute;
+	color: oklch(98.7% 0.002 197.1);
+	font-size: 24px;
+	font-weight: extra-bold;
+}
