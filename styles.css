@@ -65,3 +65,16 @@ h1 {
     "EDPT" 100,
     "EHLT" 12;
 }
+
+.text-section {
+	max-width: 800px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+.centered-image {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	object-fit: cover;
+}
